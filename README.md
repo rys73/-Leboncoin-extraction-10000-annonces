@@ -21,4 +21,16 @@ Le script est ecrit avec la bibliothèque **Playwright** et fonction de manière
 - Pagination (page suivante automatique)
 - Sauvegarde progessive en temps réel dans un CSV
 - Fermeture propre du navigateur **(Chromium)**
+- Logs simple pour suivre ce que fait le script
+---
+
+## Prérequis
+- Python 3
+- Playwright
+- os
+
+Installation de Playwright :
+```bash
+pip install playwright
+playwright install
 
